@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.iptv_player_cache.json
+~/.iptv_player_cache.json
+*.log

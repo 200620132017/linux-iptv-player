@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2f"/>
+      <stop offset="100%" stop-color="#0f0f17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#7928ca"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo redondeado estilo app de GNOME -->
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)" stroke="#2f2f45" stroke-width="4"/>
+
+  <!-- Pantalla principal -->
+  <rect x="36" y="44" width="184" height="124" rx="14" fill="#14141d" stroke="url(#accent)" stroke-width="6"/>
+
+  <!-- Triángulo de reproducción (Play) -->
+  <polygon points="114,84 154,106 114,128" fill="url(#glow)"/>
+
+  <!-- Señales de emisión WiFi / Live -->
+  <path d="M174 62 A 16 16 0 0 1 184 76" stroke="#00c6ff" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M182 54 A 28 28 0 0 1 198 78" stroke="#00c6ff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Base del monitor -->
+  <path d="M112 174 L144 174 L152 198 L104 198 Z" fill="#252538"/>
+  <rect x="88" y="198" width="80" height="8" rx="4" fill="url(#accent)"/>
+</svg>
